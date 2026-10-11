@@ -1,0 +1,66 @@
+{
+  "findings": [
+    {
+      "file": "README.md",
+      "line": 11,
+      "reason": "target does not exist: missing-guide.md",
+      "severity": "error",
+      "target": "missing-guide.md"
+    },
+    {
+      "file": "README.md",
+      "line": 12,
+      "reason": "anchor #does-not-exist does not exist",
+      "severity": "error",
+      "target": "#does-not-exist"
+    },
+    {
+      "file": "api.md",
+      "line": 5,
+      "reason": "target does not exist: missing.html",
+      "severity": "error",
+      "target": "missing.html"
+    },
+    {
+      "file": "api.md",
+      "line": 7,
+      "reason": "target path letter-case does not match the file on disk: Guide.md",
+      "severity": "error",
+      "target": "Guide.md"
+    },
+    {
+      "file": "api.md",
+      "line": 11,
+      "reason": "target does not exist: assets/missing.png",
+      "severity": "error",
+      "target": "assets/missing.png"
+    },
+    {
+      "file": "guide.md",
+      "line": 11,
+      "reason": "anchor '#details' not verified: target is not a Markdown file",
+      "severity": "warning",
+      "target": "assets/spec.pdf#details"
+    },
+    {
+      "file": "guide.md",
+      "line": 13,
+      "reason": "target does not exist: ../outside/nope.md",
+      "severity": "error",
+      "target": "../outside/nope.md"
+    }
+  ],
+  "summary": {
+    "duration_seconds": 0.072,
+    "errors": 6,
+    "files_scanned": 3,
+    "links_checked": 17,
+    "root": "examples/sample-docs",
+    "skipped": 2,
+    "warnings": 1
+  },
+  "tool": {
+    "name": "linklattice",
+    "version": "0.1.0"
+  }
+}

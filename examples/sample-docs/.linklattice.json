@@ -1,0 +1,5 @@
+{
+  "exclude": ["drafts"],
+  "allow": ["legacy/*"],
+  "check_external": false
+}

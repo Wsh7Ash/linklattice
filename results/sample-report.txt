@@ -1,0 +1,14 @@
+README.md
+     11  error   missing-guide.md  |  target does not exist: missing-guide.md
+     12  error   #does-not-exist  |  anchor #does-not-exist does not exist
+
+api.md
+      5  error   missing.html  |  target does not exist: missing.html
+      7  error   Guide.md  |  target path letter-case does not match the file on disk: Guide.md
+     11  error   assets/missing.png  |  target does not exist: assets/missing.png
+
+guide.md
+     11  warning assets/spec.pdf#details  |  anchor '#details' not verified: target is not a Markdown file
+     13  error   ../outside/nope.md  |  target does not exist: ../outside/nope.md
+
+Summary: 3 files scanned, 17 links checked, 6 errors, 1 warnings, 2 skipped in 0.02s
